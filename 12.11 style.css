@@ -1,0 +1,17 @@
+
+.underline-text {
+    text-decoration: underline;
+}
+
+nav a {
+    color:blue
+
+}
+
+nav a:hover {
+    color: red
+}
+
+.center-text {
+    text-align: center;
+}
