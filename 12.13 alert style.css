@@ -1,0 +1,20 @@
+/* UX Daily Challenge: Custom Alerts */
+/* Goal: Practice customizing bootstrap components */
+
+/* Add CSS to customize the alert component. */
+
+.alert-custom {
+   background-color:lightsteelblue;
+   border-color: slategray
+   border-width: 1px;
+   margin: 1rem;
+   box-shadow: 0px 0px 3px 3px lightgray;
+   font-family: Impact;
+   display: inline-block;
+   font-size: 16pt;
+}
+
+.alert-hover {
+
+    
+}
