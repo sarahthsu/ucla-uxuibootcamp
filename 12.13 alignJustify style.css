@@ -1,0 +1,31 @@
+img{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: navy;
+}
+
+.container{
+    background-color: sandybrown;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card,
+.card-img-top{
+    border-radius: 0px;
+}
+
+.btn{
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: lightsteelblue;
+    border-color: navy;
+    color: navy;
+
+}
+
+.btn:hover{
+    background-color: sandybrown;
+    color: navy;
+}
