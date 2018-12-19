@@ -1,0 +1,27 @@
+.container {
+  background: url(../img1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 1000px;
+}
+
+@media (min-width: 500px) 
+{.container
+  {
+  background: url(../img2.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 1000px;
+  }
+}
+
+@media (min-width: 900px) 
+{.container
+  {
+  background: url(../img3.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 1000px;
+  }
+}
+
+
+/* WRITE A MEDIA QUERY THAT CHANGES THE IMAGE WHEN THE CONTAINER IS LESS THAN 500px
+AND LESS THAN 900px. USE THE CODE ABOVE AS A GUIDE */

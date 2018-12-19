@@ -1,0 +1,18 @@
+
+.jumbotron {
+    position: relative;
+    background: #000 url("https://img1.mashed.com/img/gallery/things-you-should-never-order-from-a-sushi-restaurant/salmon-1483470495.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    color: #fff;
+}
+
+.btn{
+    background-color: white;
+    color: navy;
+}
+
+.btn:hover{
+    box-shadow: inset 0 0 0.2rem 0.2rem lightgray
+}
