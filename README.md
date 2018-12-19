@@ -1,2 +1,2 @@
 # ucla-uxuibootcamp
-my classwork from UCLA ux/ui bootcamp
+classwork from UCLA ux/ui bootcamp
