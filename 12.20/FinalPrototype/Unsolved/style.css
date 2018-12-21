@@ -69,3 +69,41 @@ div[class^="col-"] {
 }
 
 /* YOUR CODE HERE */
+
+
+@media (max-width: 768px) {
+  .jumbotron nav {
+    display:none !important;
+  }
+  .info {
+    text-align: center;
+  }
+  .large-header {
+    display:none;
+  }
+  .icon-trees {
+    display:none;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .small-header {
+    display:none;
+  }
+}
+
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: #fecb6e;
+  border-radius: 50%;
+  border: 30px solid #4fc2c2
+}
+
+.reviews {
+  padding: 30px;
+  background-color: skyblue;
+  color: white;
+}
