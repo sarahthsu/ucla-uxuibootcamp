@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conditionals Challenge</title>
+</head>
+
+<body>
+    <script>
+
+        // Number One
+        console.log("#1");
+        var x = 4 ; // could be 3,4,5,6
+        if (x < 3) {
+            console.log("not quite")
+        }
+        else if (x < 7) {
+            console.log("correct")
+        }
+        else {
+            console.log("try again")
+        };
+
+        console.log("--------");
+
+        // Number 2
+        console.log("#2")
+        var x = 0; // x and y must be the same
+        var y = 0;
+        if (x != y) {
+            console.log("try again")
+        }
+        else {
+            console.log("correct")
+        };
+
+        console.log("--------");
+
+        // Number Three
+        console.log("#3");
+        var x = "any string" ; //anything in quotation mark 
+        if (x === "") {
+            console.log("not quite")
+        }
+        else if (typeof x === "string") {
+            console.log("correct")
+        }
+        else {
+            console.log("try again")
+        };
+
+        console.log("--------");
+
+        // Number Four
+        console.log("#4")
+        var x = 8 ;
+        var y = 4 ; //both conditions must be met
+        if (x > 7 && y > 10) {
+            console.log("correct")
+        }
+        else if (x > 7 || y > 10) {
+            console.log("not quite")
+        }
+        else {
+            console.log("try again")
+        };
+
+        console.log("--------");
+
+        // Number Five
+        console.log("#5")
+        var x = 10 ; // must be a number 
+        if (x !== "" && typeof x != "string") {
+            console.log("correct")
+        } else {
+            console.log("try again")
+        };
+
+        console.log("--------");
+
+        // Number Six
+        console.log("#6")
+        var x = green; // x can be any string that is not red
+        var y = purple ; / y can be any string that is not "blue"
+        var z = 10; // z must be any number 10 (not string 10)
+        if (z === 10) {
+            if (y !== "blue") {
+                if (x === "red") {
+                    console.log("not quite")
+                } else {
+                    console.log("Correct")
+                }
+            }
+            else {
+                console.log("try again")
+            }
+        };
+
+    </script>
+</body>
+
+</html>
